@@ -54,17 +54,17 @@ Build & Install
 ---------------
 
 cli++ has the following dependencies:
-* a C++11 compliant compiler
 * make
+* a C++11 compliant compiler
 
 The project can be built with
 
     $ make
 
-and installed with
+and installed with into `/usr/local` with
 
     $ make install
 
-into `/usr/local`. To specify a custom installation prefix, use 
+To specify a custom installation prefix, use 
 
-    $ make install PREFIX=path
+    $ make install PREFIX=path/to/prefix
